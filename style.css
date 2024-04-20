@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 400px;
+    width: 350px;
     background-color: rgba(210, 137, 206, 0.516);
     padding: 50px;
     border-radius: 10px;
@@ -24,7 +24,7 @@ h2{
     font-size: 25px;
     
     color:rgba(94, 74, 104, 0.538);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .love-calc{
@@ -52,7 +52,7 @@ button{
     width:20%;
     padding: 5px 5px;
     position: relative;
-    font-size: 10px;
+    font-size: 8px;
     cursor: pointer;
     background-color: rgb(166, 84, 166);
     border-radius: 4px;
@@ -62,4 +62,9 @@ button{
 #result{
     font-size: 20px;
     color:rgba(12, 2, 17, 0.538);
+ }
+
+ img{
+    width: 50px;
+    border-radius: 0px;
  }
