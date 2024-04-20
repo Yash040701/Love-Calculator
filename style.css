@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(242, 186, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    background-color: rgba(210, 137, 206, 0.516);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    
+    color:rgba(94, 74, 104, 0.538);
+    margin-bottom: 30px;
+}
+
+.love-calc{
+
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:rgba(12, 2, 17, 0.538);
+    font-size: x-large;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 9px;
+    background-color: rgb(203, 133, 196);
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+button{
+    width:20%;
+    padding: 5px 5px;
+    position: relative;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: rgb(166, 84, 166);
+    border-radius: 4px;
+    margin: 5px;
+}
+
+#result{
+    font-size: 20px;
+    color:rgba(12, 2, 17, 0.538);
+ }
